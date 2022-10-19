@@ -1,9 +1,10 @@
-body {
-    background-color: blue;
-    size:10em;
-    color:blue;
-}
-
-#boxes:hover {
-    background-color: blue;
+.init {
+    display:flex;
+    flex-wrap:wrap;
+    width:650px;
+    height:650px;
+    padding:0;
+    margin:0;
+    border:2px solid black;
+    justify-content:space-between;
 }
