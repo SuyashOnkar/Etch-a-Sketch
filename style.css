@@ -1,0 +1,9 @@
+body {
+    background-color: blue;
+    size:10em;
+    color:blue;
+}
+
+#boxes:hover {
+    background-color: blue;
+}
