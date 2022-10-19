@@ -1,8 +1,7 @@
+const container = document.createElement("div");
+container.setAttribute('style', 'display:flex;flex-wrap:wrap;width:650px;height:650px;padding:0;margin:0;border:2px solid black;justify-content:space-between;');
+document.body.appendChild(container);
 
-
-const container = document.getElementById("container");
-
-container.setAttribute('style', 'display:flex;flex-wrap:wrap;width:500px;height:500px;padding:0;margin:0;border:2px solid black;justify-content:space-between;');
 
 for(let i=0;i<16*16;i++){
     const sq = document.createElement("div");
@@ -13,13 +12,13 @@ for(let i=0;i<16*16;i++){
 
 const boxes = document.querySelectorAll('#box').forEach(item => {
     item.addEventListener("mouseover", function(e){
-        e.target.style.background = "blue";
-    })
-})
-
-boxes.forEach(() => {
-    box.addEventListener("mouseover", function(e) {
-        e.target.background = "blue";
+        e.target.style.background = "black";
     });
 });
 
+let x;
+const button = document.getElementById("button-1").addEventListener('click',()=>{
+    x = prompt("Enter no. of tiles : ");
+
+    
+});
